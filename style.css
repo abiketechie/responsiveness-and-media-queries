@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+}
+
+p, button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#body-header {
+    background-image: url(img/bg-hero-desktop\ \(1\).svg);
+    background-color: hsl(193, 100%, 96%);
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7.5rem;
+}
+
+#menu button {
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 0.6rem 2.8rem;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
+}
+
+#menu .one .logo {
+    padding-bottom: 10rem;
+}
+
+#menu a {
+    color: hsl(192, 100%, 9%);
+}
+
+.second-class {
+    display: flex;
+    padding: 5rem;
+    align-items: center;
+    
+}
+
+.second-class .main-section {
+    padding: 0 2.5rem;
+}
+
+
+.second-class img {
+    width: 500px;
+}
+
+.second-class .one h1 {
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+}
+
+.second-class .one p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.second-class .one button {
+    background-color: hsl(322, 100%, 66%);
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 0.5rem 2.8rem;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
+}
+
+#body-main {
+    padding: 7.5rem;
+}
+
+#body-main .main-content {
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
+}
+
+#body-main .main-content .body-main {
+    padding: 2.5rem 2.5rem 2.5rem 5rem;
+}
+
+#body-main .main-content .main-content2 img{
+    width: 300px;
+}
+
+.content1 {
+    margin-top: 1rem;
+}
+
+#ready .ready {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    width: 500px;
+    padding: 3rem;
+    margin-top: -10rem;
+    background-color: #ffffff;
+    z-index: 1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
+}
+
+.ready button {
+        background-color: hsl(322, 100%, 66%);
+        color: #ffffff;
+        border-radius: 25px;
+        padding: 0.8rem 2.8rem;
+        border: 0;
+        outline: 0;
+        margin: 1rem;
+        cursor: pointer;
+        font-size: 1rem;
+        font-family: 'Open Sans', sans-serif;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
+    
+}
+
+#footer {
+    background-color: hsl(192, 100%, 9%);
+    margin-top: 8rem;
+    padding-top: 5rem;
+    color: #ffffff;
+    padding: 2rem 7.5rem;
+    z-index: -1;
+}
+
+#footer .ready h2 {
+    color: #000;
+}
+
+#footer .foot {
+    margin-top: 5rem;
+}
+
+#footer .lorem {
+    display: flex;
+}
+
+#footer .phone {
+    display: flex;
+    padding-top: 15px;
+}
+
+#footer .email {
+    display: flex;
+    padding-top: 15px;
+}
+
+#footer .lorem .left {
+    margin-left: 1.2rem;
+}
+
+#footer .phone .left {
+    margin-left: 1rem;
+}
+
+#footer .email .left {
+    margin-left: 1rem;
+}
+
+#footer .footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+#footer .footer .f3 {
+    color: #ffffff;
+}
+
+#footer .footer ul li {
+    margin-bottom: 1rem; 
+    list-style-type: none;
+    
+}
+
+#footer .footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer .footer .socials {
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+#footer .about-us {
+    margin-right: 4rem;
+}
+
+#footer .copyright {
+    text-align: right;
+    margin-top: 2rem;
+}
+
+@media  screen and (max-width: 750px) {
+
+
+#menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 7.5rem;
+}
+
+
+    #body-header {
+        background-image: url(img/bg-hero-mobile\ \(1\).svg);
+    }
+  
+    
+    
+    #menu button {
+        background-color: #ffffff;
+        border-radius: 25px;
+        padding: 0.6rem 2.8rem;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
+    }
+    
+    #menu .one .logo {
+        padding-bottom: 10rem;
+    }
+    
+    #menu a {
+        color: hsl(192, 100%, 9%);
+    }
+    
+    .second-class {
+        display: flex;
+        padding: 5rem;
+        align-items: center;
+        flex-direction: column;  
+        justify-content: center;  
+    }
+    
+    .second-class .main-section {
+        padding: 0.5rem;
+        text-align: center;
+    }
+    
+    
+    .second-class img {
+        width: 500px;
+    }
+    
+    .second-class .one h1 {
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+    }
+    
+    .second-class .one p {
+        margin-bottom: 1rem;
+    }
+    
+    .second-class .one button {
+        padding: 1.5rem 5rem;
+        margin-bottom: 3.5rem;
+    }
+    
+    #body-main {
+        padding: 7.5rem 7.5rem 15rem;
+    }
+    
+    #body-main .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 0;
+        border-radius: 1.5rem;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
+    }
+    
+    #body-main .main-content .body-main {
+        padding: 2.5rem 2.5rem 2.5rem 5rem;
+    }
+    
+    #body-main .main-content .main-content2 img{
+        width: 300px;
+    }
+    
+    .content1 {
+        margin-top: 1rem;
+    }
+    
+    #ready .ready {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+        border-radius: 0.5rem;
+        margin: 0 auto;
+        width: 500px;
+        padding: 3rem;
+        margin-top: -10rem;
+        background-color: #ffffff;
+        z-index: 1;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
+    }
+    
+    .ready button {
+            background-color: hsl(322, 100%, 66%);
+            color: #ffffff;
+            border-radius: 25px;
+            padding: 0.8rem 2.8rem;
+            border: 0;
+            outline: 0;
+            margin: 1rem;
+            cursor: pointer;
+            font-size: 1rem;
+            font-family: 'Open Sans', sans-serif;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
+        
+    }
+    
+    #footer {
+        background-color: hsl(192, 100%, 9%);
+        margin-top: 8rem;
+        padding-top: 5rem;
+        color: #ffffff;
+        padding: 2rem 7.5rem;
+        z-index: -1;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    #footer .ready h2 {
+        color: #000;
+    }
+    
+    #footer .foot {
+        margin-top: 5rem;
+    }
+    
+    #footer .lorem {
+        display: flex;
+    }
+    
+    #footer .phone {
+        display: flex;
+        padding-top: 15px;
+    }
+    
+    #footer .email {
+        display: flex;
+        padding-top: 15px;
+    }
+    
+    #footer .lorem .left {
+        margin-left: 1.2rem;
+    }
+    
+    #footer .phone .left {
+        margin-left: 1rem;
+    }
+    
+    #footer .email .left {
+        margin-left: 1rem;
+    }
+    
+    #footer .footer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5rem;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+    
+    #footer .footer .f3 {
+        color: #ffffff;
+    }
+    
+    #footer .footer ul li {
+        margin-bottom: 1rem; 
+        list-style-type: none;
+        
+    }
+    
+    #footer .footer ul li a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    #footer .footer .socials {
+        display: flex;
+        gap: 1rem;
+        font-size: 1rem;
+    }
+    
+    #footer .about-us {
+        margin-right: 4rem;
+    }
+    
+    #footer .copyright {
+        text-align: right;
+        margin-top: 2rem;
+    }
+}
+
